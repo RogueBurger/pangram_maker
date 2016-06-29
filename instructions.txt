@@ -1,0 +1,36 @@
+CATS Developer Quiz
+
+Self Documenting Pangram Maker:
+-------------------------------
+A pangram is a sentence that contains every letter of the alphabet. A self-documenting pangram is one that follows the general format of:
+
+This sentence contains <number> 'a's, <number> 'b's, <number> 'c's, etc.
+
+For example:
+
+Only a fool would check that this sentence contains exactly six 'a's, one 'b', six 'c's, three 'd's, thirty-four 'e's, five 'f's, two 'g's, ten 'h's, thirteen 'i's, one 'j', two 'k's, five 'l's, one 'm', twenty-two 'n's, seventeen 'o's, one 'p', one 'q', seven 'r's, thirty-two 's's, twenty-six 't's, three 'u's, seven 'v's, eight 'w's, six 'x's, seven 'y's, and one 'z'.
+
+Find the self documenting pangram that begins with "The solution to the CATS problem contains precisely".
+
+PHP or Python are what we use here, but we love playing with all sorts of technology, so pick whatever you want.
+
+Hint: 
+-----
+On a relatively decent machine, it shouldn't take more than a minute to solve in most cases. In some instances you might have to interrupt and start again if the solution isn't found within a minute. It could mean that the program is stuck on an unsolvable route/path and won't converge.
+
+Sample Run:
+-----------
+$ php pangram.php sample
+Only a fool would check that this sentence contains exactly  six 'a's, one 'b', six 'c's, three 'd's, thirty-four 'e's, five 'f's, two 'g's, ten 'h's, thirteen 'i's, one 'j', two 'k's, five 'l's, one 'm', twenty-two 'n's, seventeen 'o's, one 'p', one 'q', seven 'r's, thirty-two 's's, twenty-six 't's, three 'u's, seven 'v's, eight 'w's, six 'x's, seven 'y's, and one 'z'.
+
+Execution Time : 0:00:25
+Iterations     : 188289
+
+
+$ php pangram.php stdin
+This sentence contains
+^D
+This sentence contains three 'a's, one 'b', three 'c's, two 'd's, thirty-one 'e's, five 'f's, two 'g's, six 'h's, eleven 'i's, one 'j', one 'k', two 'l's, one 'm', twenty-one 'n's, sixteen 'o's, one 'p', one 'q', five 'r's, twenty-seven 's's, twenty 't's, two 'u's, six 'v's, eight 'w's, four 'x's, five 'y's, and one 'z'.
+
+Execution Time : 0:01:08
+Iterations     : 544004
